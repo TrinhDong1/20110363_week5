@@ -1,0 +1,42 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e0e0e0; /* Nền màu xanh nhạt */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px; /* Border radius lớn hơn để làm cho form đẹp hơn */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Shadow lớn hơn */
+}
+
+header {
+  background-color: #009688; /* Màu xanh đậm */
+  color: #fff;
+  padding: 15px 0; /* Thay đổi padding cho header */
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #333; /* Chữ màu đen */
+  text-decoration: none;
+}
